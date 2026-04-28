@@ -40,3 +40,8 @@ double LayangLayang::luas() {
 double LayangLayang::keliling() {
     return 2 * (sisi1 + sisi2);
 }
+
+void BelahKetupat::input() {
+    cout << "Input sisi: ";
+    cin >> sisi;
+}
