@@ -56,3 +56,13 @@ void BelahKetupat::input() {
 double BelahKetupat::keliling() {
     return 4 * sisi;
 }
+
+int main() {
+    LayangLayang l;
+    BelahKetupat b;
+
+    l.input();
+    b.input();
+
+    return 0;
+}
