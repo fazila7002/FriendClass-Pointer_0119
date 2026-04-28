@@ -64,5 +64,10 @@ int main() {
     l.input();
     b.input();
 
+cout << "Luas Layang-Layang: " << l.luas() << endl;
+cout << "Keliling Layang-Layang: " << l.keliling() << endl;
+cout << "Keliling Belah Ketupat: " << b.keliling() << endl;
+
+
     return 0;
 }
