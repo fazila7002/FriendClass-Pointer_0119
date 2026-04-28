@@ -36,3 +36,7 @@ void LayangLayang::input() {
 double LayangLayang::luas() {
     return 0.5 * d1 * d2;
 }
+
+double LayangLayang::keliling() {
+    return 2 * (sisi1 + sisi2);
+}
