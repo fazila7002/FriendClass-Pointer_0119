@@ -15,6 +15,13 @@ public:
 class LayangLayang {
 private:
     double d1, d2, sisi1, sisi2;
+
+public:
+    void input();
+    double luas();
+    double keliling();
+
+    friend class BelahKetupat;
 };
 
 class LayangLayang {
