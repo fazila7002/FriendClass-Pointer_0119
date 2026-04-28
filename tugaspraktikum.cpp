@@ -30,4 +30,9 @@ public:
 void LayangLayang::input() {
     cout << "Input d1, d2, sisi1, sisi2: ";
     cin >> d1 >> d2 >> sisi1 >> sisi2;
+
+}
+
+double LayangLayang::luas() {
+    return 0.5 * d1 * d2;
 }
