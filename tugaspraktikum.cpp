@@ -6,6 +6,10 @@ class LayangLayang;
 class BelahKetupat {
 private:
     double sisi;
+
+public:
+    void input();
+    double keliling();
 };
 
 class LayangLayang {
