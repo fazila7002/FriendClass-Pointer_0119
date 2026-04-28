@@ -45,3 +45,7 @@ void BelahKetupat::input() {
     cout << "Input sisi: ";
     cin >> sisi;
 }
+
+double BelahKetupat::keliling() {
+    return 4 * sisi;
+}
